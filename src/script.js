@@ -1,13 +1,13 @@
 import * as THREE from "three";
-import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import GUI from "lil-gui";
-import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import glassMaterial from "./glass.js";
 import waterMaterial from "./water.js";
 import FishControls from "./fishControls.js";
-import { RGBELoader } from "three/addons/loaders/RGBELoader.js";
 import animatePlants from "./animatePlants.js";
 import sand from "./sand.js";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
+import { RGBELoader } from "three/examples/jsm/loaders/RGBELoader.js";
 
 /**
  * Base
