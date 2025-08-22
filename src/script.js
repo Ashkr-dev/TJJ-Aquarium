@@ -155,6 +155,7 @@ gltfLoader.load("./aquarium.glb", (gltf) => {
   fishControls = new FishControls(fish, aquariumBox);
 });
 
+// Sand Particles
 sand(scene);
 
 /**
